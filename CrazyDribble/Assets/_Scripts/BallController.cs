@@ -5,6 +5,7 @@ public class BallController : MonoBehaviour
 {
     public float maxHorizontalForce = 5f;
     public float verticalForce = 7f;
+    public float gravityIncrease = 2f;
 
     private Rigidbody2D rb;
     private float screenWidth;
